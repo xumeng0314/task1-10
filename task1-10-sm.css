@@ -1,0 +1,26 @@
+.box_1,.box_2,.box_3,.box_4{
+    width: 150px;
+    padding: 20px;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+}
+.box_1{
+    border: 1px solid #f00;
+    height: 120px;
+}
+.box_2{
+    border: 1px solid #f00;
+    height: 100px;
+}
+.box_3{
+    border: 1px solid #f00;
+    height: 40px;
+}
+.box_4{
+    border: 1px solid #00f;
+    height: 200px;
+}

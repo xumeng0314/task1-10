@@ -1,0 +1,28 @@
+.box_1,.box_2,.box_3,.box_4{
+    width: 150px;
+    margin: 20px;
+  }
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+  }
+.box_1{
+    border: 1px solid #f00;
+    height: 120px;
+}
+.box_2{
+    border: 1px solid #f00;
+    height: 100px;
+}
+.box_3{
+    border: 1px solid #f00;
+    height: 40px;
+}
+.box_4{
+    border: 1px solid #00f;
+    height: 200px;
+    order: -1;
+}
